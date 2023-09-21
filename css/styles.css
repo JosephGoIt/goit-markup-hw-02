@@ -41,12 +41,57 @@ h2 {
     text-align: center;
 }
 
-.team-members {
+/* .team-members {
+    list-style: none;
+    padding-left: 0;
+} */
+
+/* .platform-types {
+    list-style: none;
+    padding-left: 0;
+} */
+
+.list {
     list-style: none;
     padding-left: 0;
 }
 
-.platform-types {
-    list-style: none;
-    padding-left: 0;
+.link {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+}
+
+.hero {
+    background-color: var(--NAVY-BLUE);
+    color: var(--WHITE);
+}
+
+.nav-list {
+    color: var(--NAVY-BLUE);
+    font-weight: 500;
+}
+
+.hero h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero button {
+    background-color: var(--IRIS);
+    text-align: left;
+    color: var(--WHITE);
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+.contact-list {
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    border-collapse: collapse;
 }
